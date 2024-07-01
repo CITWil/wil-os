@@ -48,10 +48,10 @@ modules:
       # only normal flatpak applications are (like Floorp Lightning web browser in this example).
       # Installing different branches of the same Flatpak is not supported.
       remove:
-        - app/org.mozilla.Thunderbird/x86_64/stable
-        - app/org.mozilla.firefox/x86_64/stable
-        - app/org.kde.kcalc/x86_64/stable
-        - app/io.github.dvlv.boxbuddyrs/x86_64/stable
+        - org.mozilla.Thunderbird
+        - org.mozilla.firefox
+        - org.kde.kcalc
+        - io.github.dvlv.boxbuddyrs
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
