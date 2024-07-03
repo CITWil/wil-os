@@ -44,6 +44,7 @@ modules:
       install:
           - io.podman_desktop.PodmanDesktop
           - io.github.ungoogled_software.ungoogled_chromium
+          - com.github.zocker_160.SyncThingy
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
