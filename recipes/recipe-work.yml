@@ -17,11 +17,11 @@ modules:
                   # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
-    keys:
-        - https://packages.microsoft.com/keys/microsoft.asc
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-        - https://packages.microsoft.com/yumrepos/edge
+        - https://packages.microsoft.com/yumrepos/edge/config.repo
+     keys:
+        - https://packages.microsoft.com/keys/microsoft.asc
     install:
         - libqalculate 
         - qalculate-qt
