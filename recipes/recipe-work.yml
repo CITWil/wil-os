@@ -36,7 +36,7 @@ modules:
       # - code
         - devpod
         - flatpak-builder
-        - https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-stable-126.0.2592.81-1.x86_64.rpm
+      #  - https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-stable-126.0.2592.81-1.x86_64.rpm
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
