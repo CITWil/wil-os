@@ -20,6 +20,7 @@ modules:
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
         - https://packages.microsoft.com/yumrepos/edge/
+        - https://packages.microsoft.com/yumrepos/edge/config.repo
      keys:
         - https://packages.microsoft.com/keys/microsoft.asc
         - https://packages.microsoft.com/yumrepos/edge/repodata/repomd.xml.key
