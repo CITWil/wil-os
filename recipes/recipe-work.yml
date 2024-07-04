@@ -23,6 +23,7 @@ modules:
      keys:
         - https://packages.microsoft.com/keys/microsoft.asc
         - https://packages.microsoft.com/yumrepos/edge/repodata/repomd.xml.key
+        - https://packages.microsoft.com/yumrepos/edge/repodata/repomd.xml.asc
     install:
         - libqalculate 
         - qalculate-qt
