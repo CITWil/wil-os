@@ -31,7 +31,7 @@ modules:
         - qpwgraph
         - kismet
         - microsoft-edge
-      # - microsoft-edge-stable
+        - edge
         - wireshark
       # - microsoft-edge-stable
     remove:
