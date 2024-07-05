@@ -30,7 +30,7 @@ modules:
         - qalculate-qt
         - qpwgraph
         - kismet
-        - microsoft-edge-beta
+        - microsoft-edge
       # - microsoft-edge-stable
         - wireshark
       # - microsoft-edge-stable
