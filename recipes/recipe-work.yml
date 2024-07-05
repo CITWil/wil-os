@@ -30,8 +30,6 @@ modules:
         - qalculate-qt
         - qpwgraph
         - kismet
-        - microsoft-edge
-        - edge
         - wireshark
         - https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-stable-126.0.2592.87-1.x86_64.rpm
     remove:
