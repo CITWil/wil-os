@@ -30,9 +30,10 @@ modules:
         - qalculate-qt
         - qpwgraph
         - kismet
-      # - kismon
+        - microsoft-edge-beta
+      # - microsoft-edge-stable
         - wireshark
-        - microsoft-edge-stable
+      # - microsoft-edge-stable
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
