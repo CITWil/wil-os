@@ -25,6 +25,7 @@ modules:
         - qpwgraph
         - kismet
         - wireshark
+        - qalculate
         #- https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-beta-127.0.2651.8-1.x86_64.rpm
     remove:
       # example: removing firefox (in favor of the flatpak)
