@@ -17,8 +17,11 @@ modules:
                   # in /usr/etc/ in the image. read more in files module reference.
 
   - type: rpm-ostree
+    keys:
+        - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+        - https://download.vscodium.com/rpms/etc/yum.repos.d/vscodium.repo
     install:
         - libqalculate 
         - qalculate-qt
@@ -26,6 +29,8 @@ modules:
         - kismet
         - wireshark
         - qalculate
+        - codium
+        - codium-insiders
         #- https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-beta-127.0.2651.8-1.x86_64.rpm
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -61,6 +66,6 @@ modules:
         - org.mozilla.Thunderbird
         - org.mozilla.firefox
         - org.kde.kcalc
-        - io.github.dvlv.boxbuddyrs
+      # - io.github.dvlv.boxbuddyrs
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
