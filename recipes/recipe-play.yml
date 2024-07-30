@@ -55,7 +55,7 @@ modules:
         - org.mozilla.Thunderbird
         - org.mozilla.firefox
         - org.kde.kcalc
-        - io.github.dvlv.boxbuddyrs
+       # - io.github.dvlv.boxbuddyrs
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
