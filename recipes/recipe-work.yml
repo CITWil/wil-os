@@ -29,6 +29,7 @@ modules:
         - kismet
         - wireshark
         - qalculate
+        - microsoft-edge-stable
         - https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-1.x86_64.rpm
       # - codium
       # - codium-insiders'
