@@ -34,6 +34,7 @@ modules:
         - qalculate
         - microsoft-edge-stable
         - https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-1.x86_64.rpm
+        - bolt
       # - codium
       # - codium-insiders'
       #- https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-beta-127.0.2651.8-1.x86_64.rpm
