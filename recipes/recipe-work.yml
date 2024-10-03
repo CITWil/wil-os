@@ -34,7 +34,7 @@ modules:
         - qalculate
         - microsoft-edge-stable
         - https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-1.x86_64.rpm
-        - bolt
+        - https://github.com/julian-alarcon/prospect-mail/releases/download/v0.5.4/prospect-mail-0.5.4.x86_64.rpm
       # - codium
       # - codium-insiders'
       #- https://packages.microsoft.com/yumrepos/edge/Packages/m/microsoft-edge-beta-127.0.2651.8-1.x86_64.rpm
@@ -62,6 +62,7 @@ modules:
           - org.kde.ktimetracker
           - com.github.zocker_160.SyncThingy
           - com.microsoft.Edge
+          - org.libreoffice.LibreOffice
         # - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
