@@ -37,8 +37,9 @@ modules:
         - qt6-qtlocation
         - parcellite
         - qlipper
-        - diodon
         - clipit
+        - xl2tpd
+        - libreswan
         - https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-1.x86_64.rpm
     remove:
       # example: removing firefox (in favor of the flatpak)
