@@ -35,9 +35,6 @@ modules:
         - sunwait
         - copyq
         - qt6-qtlocation
-        - parcellite
-        - qlipper
-        - clipit
         - xl2tpd
         - libreswan
         - cronie
