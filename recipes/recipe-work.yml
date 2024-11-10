@@ -32,7 +32,6 @@ modules:
         - kismet
         - wireshark
         - qalculate
-        - sunwait
         - copyq
         - qt6-qtlocation
         - xl2tpd
