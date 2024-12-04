@@ -65,7 +65,7 @@ modules:
       install:
           - io.podman_desktop.PodmanDesktop
           - io.gitlab.librewolf-community
-          - org.gnome.Evolution
+        # - org.gnome.Evolution
           - com.lynnmichaelmartin.TimeTracker
           - com.github.zocker_160.SyncThingy
           - com.microsoft.Edge
