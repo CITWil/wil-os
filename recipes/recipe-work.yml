@@ -64,7 +64,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
           - io.podman_desktop.PodmanDesktop
-          - io.gitlab.librewolf-communi
+          - io.gitlab.librewolf-community
           - com.lynnmichaelmartin.TimeTracker
           - com.github.zocker_160.SyncThingy
           - com.microsoft.Edge
