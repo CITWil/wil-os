@@ -64,8 +64,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
           - io.podman_desktop.PodmanDesktop
-          - io.gitlab.librewolf-community
-        # - org.gnome.Evolution
+          - io.gitlab.librewolf-communi
           - com.lynnmichaelmartin.TimeTracker
           - com.github.zocker_160.SyncThingy
           - com.microsoft.Edge
@@ -79,6 +78,7 @@ modules:
         - org.mozilla.Thunderbird
         - org.mozilla.firefox
         - org.kde.kcalc
+        - org.gnome.Evolution
       # - io.github.dvlv.boxbuddyrs
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
