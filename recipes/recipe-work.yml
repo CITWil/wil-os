@@ -79,6 +79,6 @@ modules:
         - org.mozilla.firefox
         - org.kde.kcalc
         - org.gnome.Evolution
-      # - io.github.dvlv.boxbuddyrs
+       #- io.github.dvlv.boxbuddyrs
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
