@@ -44,6 +44,7 @@ modules:
         - libfido2-devel
         - cabextract
         - xorg-x11-font-utils
+        - https://github.com/baduhai/Koi/releases/download/0.4/Koi-0.4-1.FEDORA-%OS_VERSION%.x86_64.rpm
         - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
         - https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-1.x86_64.rpm
     remove:
