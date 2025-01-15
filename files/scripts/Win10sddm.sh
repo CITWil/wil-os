@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 echo ""
 
@@ -142,9 +143,9 @@ else
     echo "Install Windows Cursor Icons, Required Segoe UI fonts and Windows Cursor Icons..."
     echo ""
 
+    sddm
     font
     cursor
-    sddm
 
     echo "Done."
 
