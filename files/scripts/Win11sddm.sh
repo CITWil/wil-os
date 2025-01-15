@@ -11,7 +11,7 @@ echo ""
 
 echo "Installing all: (e.g: "1 2")"
 
-input = "1 2 3"
+input="1 2 3"
 #read -p ":: " input
 
 function sddm() {
