@@ -10,18 +10,19 @@ echo " (3) - Install Windows Cursor Icons"
 echo ""
 
 echo "Installing all Win10 components: (e.g: "1 2")"
-   
+
+input = "1 2 3"   
 #read -p ":: " input
 
 function sddm() {
 
-    sudo wget -P /usr/share/sddm/themes https://github.com/birbkeks/win10-sddm-theme/releases/download/1.2/win10-sddm-theme.tar.gz -nc
+    wget -P /usr/share/sddm/themes https://github.com/birbkeks/win10-sddm-theme/releases/download/1.2/win10-sddm-theme.tar.gz -nc
 
-    sudo tar -xzf /usr/share/sddm/themes/win10-sddm-theme.tar.gz -C /usr/share/sddm/themes
+    tar -xzf /usr/share/sddm/themes/win10-sddm-theme.tar.gz -C /usr/share/sddm/themes
 
-    sudo rm -rf /usr/share/sddm/themes/win10-sddm-theme.tar.gz
+    rm -rf /usr/share/sddm/themes/win10-sddm-theme.tar.gz
 
-    sudo rm -rf /usr/share/sddm/themes/win10-sddm-theme/.git/
+    rm -rf /usr/share/sddm/themes/win10-sddm-theme/.git/
 
     #edit
 }
@@ -50,27 +51,27 @@ Current=win10-sddm-theme
 function font() {
     # Not installed locally because I can't stand to see this font on Github and other websites, I couldn't find a way to disable this font for browser. I'm used to see Noto Sans too much I guess. You can go to this fonts files and install it locally if you want to and this theme will still work.
 
-    sudo wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/segoeui.ttf -nc
+    wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/segoeui.ttf -nc
 
-    sudo wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/segoeuil.ttf -nc
+    wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/segoeuil.ttf -nc
 
-    sudo wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/SegMDL2.ttf -nc
+    wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/SegMDL2.ttf -nc
 
-    sudo wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/SegoeBoot-Semilight.woff -nc
+    wget -P /usr/share/sddm/themes/win10-sddm-theme/fonts https://github.com/birbkeks/win10-sddm-theme/raw/main/fonts/SegoeBoot-Semilight.woff -nc
 }
 
 function cursor() {
-    sudo wget -P /usr/share/icons https://github.com/birbkeks/windows-cursors/releases/download/1.0/windows-cursors.tar.gz -nc
+    wget -P /usr/share/icons https://github.com/birbkeks/windows-cursors/releases/download/1.0/windows-cursors.tar.gz -nc
 
-    sudo tar -xzf /usr/share/icons/windows-cursors.tar.gz -C /usr/share/icons/
+    tar -xzf /usr/share/icons/windows-cursors.tar.gz -C /usr/share/icons/
 
-    sudo cp /usr/share/icons/windows-cursors/index.theme /usr/share/icons/default/index.theme
+    cp /usr/share/icons/windows-cursors/index.theme /usr/share/icons/default/index.theme
 
-    sudo cp -r /usr/share/icons/windows-cursors/cursors /usr/share/icons/default
+    cp -r /usr/share/icons/windows-cursors/cursors /usr/share/icons/default
 
-    sudo rm -rf /usr/share/icons/windows-cursors
+    rm -rf /usr/share/icons/windows-cursors
 
-    sudo rm -f /usr/share/icons/windows-cursors.tar.gz
+    rm -f /usr/share/icons/windows-cursors.tar.gz
 }
 
 if [[ $input == "1" ]]; then
