@@ -85,8 +85,8 @@ modules:
     user: {} # Also add Flathub user repo, but no user packages
 
   - type: script
-     scripts:
-       - Win11sddm.sh #login theme
-       - Win10sddm.sh
+    scripts:
+      - Win11sddm.sh #login theme
+      - Win10sddm.sh
     
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
