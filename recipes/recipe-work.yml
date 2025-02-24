@@ -71,6 +71,7 @@ modules:
           - com.github.zocker_160.SyncThingy
           - com.microsoft.Edge
           - org.libreoffice.LibreOffice
+          - org.garudalinux.firedragon
         # - org.mozilla.firefox
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
