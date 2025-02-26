@@ -1,0 +1,1 @@
+    tar -xzf /usr/share/icons/PearDarkCursors.tar.gz -C /usr/share/icons/
