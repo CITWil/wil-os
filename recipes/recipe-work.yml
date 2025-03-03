@@ -12,7 +12,7 @@ image-version: stable # latest is also supported if you want new updates ASAP
 modules:
  # - type: files 
   #  files:
-    #  - source: PearDark/*  #If needed to redeploy Cursors
+    #  - source: PearDark/*  #If needed to redeploy PearCursors
       #  destination: /var/home/.icons
 
   - type: rpm-ostree
