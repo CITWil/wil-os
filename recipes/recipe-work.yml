@@ -33,6 +33,8 @@ modules:
         - qalculate
         - copyq
         - qt6-qtlocation
+        - qt5-qtbase-devel
+        - qt5-qtsvg
         - xl2tpd
         - libreswan
         - cronie
@@ -90,5 +92,4 @@ modules:
     scripts:
       - Win11sddm.sh #login theme
       - Win10sddm.sh
-    
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
