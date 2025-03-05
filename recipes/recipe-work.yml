@@ -32,10 +32,10 @@ modules:
         - wireshark
         - qalculate
         - copyq
-        - qt6-qtbase
+        #- qt6-qtbase
         - qt6-qtlocation
-        - qt6-qtbase-devel
-        - qt6-qtsvg
+        - qt5-qtbase-devel
+        #- qt6-qtsvg
         - xl2tpd
         - libreswan
         - cronie
