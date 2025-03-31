@@ -35,7 +35,7 @@ modules:
         - copyq
         - waydroid
         - qt6-qtlocation
-        #- qt5-qtbase-devel
+        - microsoft-edge-beta
         #- qt6-qtsvg
         - xl2tpd
         - libreswan
