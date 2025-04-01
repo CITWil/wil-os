@@ -24,7 +24,7 @@ modules:
     keys:
       # - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
       # - https://packages.microsoft.com/keys/microsoft.asc
-      # - https://packages.microsoft.com/yumrepos/edge/repodata/repomd.xml.key
+        - https://packages.microsoft.com/yumrepos/edge/repodata/repomd.xml.key
     install:
         - libqalculate 
         - qalculate-qt
