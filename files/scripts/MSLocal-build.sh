@@ -11,7 +11,8 @@ curl -o /etc/yum.repos.d/microsoft-edge.repo https://packages.microsoft.com/yumr
 rm /opt && mkdir /opt #&& mkdir /var/opt
 dnf install -y intune-portal microsoft-edge-beta
 mv /opt/microsoft /usr/lib/opt/microsoft
-sudo ln -s /usr/lib/opt/microsoft /var/opt/microsoft
+ln -s /usr/lib/opt/microsoft /var/opt/microsoft
 ls -l /var/opt
 ls -l /usr/lib/opt
 rm -rf /opt && ln -s /var/opt /opt
+ls -l /var/opt
