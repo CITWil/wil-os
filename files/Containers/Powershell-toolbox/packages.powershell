@@ -1,0 +1,16 @@
+bat
+bash
+curl
+dotnet-8-sdk
+eza
+fd
+fish
+fzf
+gawk
+gcompat
+jq
+mcfly
+ripgrep
+sed
+zoxide
+zsh

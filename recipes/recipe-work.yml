@@ -50,6 +50,9 @@ modules:
         - xorg-x11-font-utils
         - feh
         - firejail
+        - xl2tpd
+        - NetworkManager-l2tp
+        - NetworkManager-l2tp-gnome
       # - https://sourceforge.net/projects/firejail/files/firetools/firetools-0.9.62-1.x86_64.rpm/download
       # - https://github.com/baduhai/Koi/releases/download/0.4/Koi-0.4-1.FEDORA-%OS_VERSION%.x86_64.rpm
         - https://github.com/baduhai/Koi/releases/download/0.5/Koi-0.5-5.1--Fedora_%OS_VERSION%.x86_64.rpm
@@ -76,7 +79,7 @@ modules:
           - app.zen_browser.zen
           - com.lynnmichaelmartin.TimeTracker
           - com.github.zocker_160.SyncThingy
-          - com.microsoft.Edge
+         # - com.microsoft.Edge
           - org.libreoffice.LibreOffice
           - org.garudalinux.firedragon
         # - org.mozilla.firefox
