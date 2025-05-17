@@ -17,15 +17,8 @@ modules:
       - source: LockScreenUi.qml  #ScreenLock test
         destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
   - type: rpm-ostree
-    repos:
-      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      # - https://download.vscodium.com/rpms/etc/yum.repos.d/vscodium.repo
-        - https://packages.microsoft.com/yumrepos/edge/config.repo
-        - https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/config.repo
-    keys:
-      # - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-      # - https://packages.microsoft.com/keys/microsoft.asc
-        - https://packages.microsoft.com/yumrepos/edge/repodata/repomd.xml.key
+    repos: {}
+    keys: {}
     install:
         - libqalculate 
         - qalculate-qt
@@ -53,9 +46,7 @@ modules:
         - xl2tpd
         - NetworkManager-l2tp
         - NetworkManager-l2tp-gnome
-      # - https://sourceforge.net/projects/firejail/files/firetools/firetools-0.9.62-1.x86_64.rpm
-      # - https://github.com/baduhai/Koi/releases/download/0.4/Koi-0.4-1.FEDORA-%OS_VERSION%.x86_64.rpm
-        - https://github.com/baduhai/Koi/releases/download/0.5/Koi-0.5-5.1--Fedora_%OS_VERSION%.x86_64.rpm
+        - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
         - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
         - https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-1.x86_64.rpm
     remove:
