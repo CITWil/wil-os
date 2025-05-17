@@ -17,8 +17,6 @@ modules:
       - source: LockScreenUi.qml  #ScreenLock test
         destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
   - type: rpm-ostree
-    repos: {}
-    keys: {}
     install:
         - libqalculate 
         - qalculate-qt
