@@ -27,6 +27,7 @@ modules:
         - copyq
         - waydroid
         - qt6-qtlocation
+        - java-latest-openjdk
         #- microsoft-edge-beta
         #- qt6-qtsvg
         - xl2tpd
