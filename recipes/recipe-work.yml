@@ -16,8 +16,9 @@ modules:
       #  destination: /var/home/.icons
       - source: LockScreenUi.qml  #ScreenLock test
         destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
-  - type: rpm-ostree
+  - type: dnf
     install:
+      packages:
         - libqalculate 
         - qalculate-qt
         - qpwgraph
@@ -27,8 +28,7 @@ modules:
         - copyq
         - waydroid
         - qt6-qtlocation
-        - java-latest-openjdk
-        #- microsoft-edge-beta
+        #- microsoft-edge-beta Installed from script
         #- qt6-qtsvg
         - xl2tpd
         - libreswan
@@ -47,15 +47,16 @@ modules:
         - NetworkManager-l2tp-gnome
         - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
         - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
-        - https://github.com/angryip/ipscan/releases/download/3.9.1/ipscan-3.9.1-1.x86_64.rpm
+        - ipscan-3.9.1-1.x86_64.rpm
     remove:
+      packages:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - code
       # - devpod
         - flatpak-builder
-      # - firefox
-      # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+        - firefox
+        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -71,7 +72,7 @@ modules:
           - com.github.zocker_160.SyncThingy
          # - com.microsoft.Edge
           - org.libreoffice.LibreOffice
-          - org.garudalinux.firedragon
+        # - org.garudalinux.firedragon
         # - org.mozilla.firefox
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
