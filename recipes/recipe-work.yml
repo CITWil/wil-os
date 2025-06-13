@@ -27,21 +27,21 @@ modules:
         - libqalculate 
         #- qalculate-qt
         - qpwgraph
-        # - kismet
-        # - wireshark
+        - kismet
+        - wireshark
         - qalculate
-        # - copyq
+        - copyq
         # - waydroid
         # - qt6-qtlocation
         - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
         # - libreswan
-        # - cronie
-        # - cronie-anacron
-        # - crontabs
-        # - libfido2
-        # - fido2-tools
-        # - libfido2-devel
+        - cronie
+        - cronie-anacron
+        - crontabs
+        - libfido2
+        - fido2-tools
+        - libfido2-devel
         # - cabextract
         # - xorg-x11-font-utils
         # - feh
