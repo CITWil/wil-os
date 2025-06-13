@@ -33,7 +33,7 @@ modules:
         # - copyq
         # - waydroid
         # - qt6-qtlocation
-        # - microsoft-edge-beta #needs Optfix
+        - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
         # - libreswan
         # - cronie
@@ -51,6 +51,7 @@ modules:
         # - NetworkManager-l2tp-gnome
         # - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
         # - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+        - ipscan-3.9.1-1.x86_64.rpm
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
@@ -73,7 +74,7 @@ modules:
           - app.zen_browser.zen
           - com.lynnmichaelmartin.TimeTracker
           - com.github.zocker_160.SyncThingy
-          - org.angryip.ipscan
+        # - org.angryip.ipscan
           - org.libreoffice.LibreOffice
         # - org.garudalinux.firedragon
         # - org.mozilla.firefox
