@@ -10,89 +10,89 @@ image-version: stable # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  # - type: files 
-  #   files:
-  #   #  - source: PearDark/*  #If needed to redeploy PearCursors
-  #     #  destination: /var/home/.icons
-  #     - source: LockScreenUi.qml  #ScreenLock test
-  #       destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
-  - type: dnf
-    repos:
-      files:
-        - https://packages.microsoft.com/yumrepos/edge/config.repo
-    optfix:
-      - microsoft
-    install:
-      packages:
-        - libqalculate 
-        - qalculate-qt
-        - qpwgraph
-        - kismet
-        - wireshark
-        - qalculate
-        - copyq
-        - waydroid
-        - qt6-qtlocation
-        - microsoft-edge-beta #needs Optfix
-        #- qt6-qtsvg
-        - libreswan
-        - cronie
-        - cronie-anacron
-        - crontabs
-        - libfido2
-        - fido2-tools
-        - libfido2-devel
-        - cabextract
-        - xorg-x11-font-utils
-        - feh
-        - firejail
-        - xl2tpd
-        - NetworkManager-l2tp
-        - NetworkManager-l2tp-gnome
-        - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
-        - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
-        - ipscan-3.9.1-1.x86_64.rpm
-    remove:
-      packages:
-      # example: removing firefox (in favor of the flatpak)
-      # "firefox" is the main package, "firefox-langpacks" is a dependency
-      # - code
-      # - devpod
-        - flatpak-builder
-        - firefox
-        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+  - type: files 
+    files:
+    #  - source: PearDark/*  #If needed to redeploy PearCursors
+      #  destination: /var/home/.icons
+      - source: LockScreenUi.qml  #ScreenLock test
+        destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
+  # - type: dnf
+  #   repos:
+  #     files:
+  #       - https://packages.microsoft.com/yumrepos/edge/config.repo
+  #   optfix:
+  #     - microsoft
+  #   install:
+  #     packages:
+  #       - libqalculate 
+  #       - qalculate-qt
+  #       - qpwgraph
+  #       - kismet
+  #       - wireshark
+  #       - qalculate
+  #       - copyq
+  #       - waydroid
+  #       - qt6-qtlocation
+  #       - microsoft-edge-beta #needs Optfix
+  #       #- qt6-qtsvg
+  #       - libreswan
+  #       - cronie
+  #       - cronie-anacron
+  #       - crontabs
+  #       - libfido2
+  #       - fido2-tools
+  #       - libfido2-devel
+  #       - cabextract
+  #       - xorg-x11-font-utils
+  #       - feh
+  #       - firejail
+  #       - xl2tpd
+  #       - NetworkManager-l2tp
+  #       - NetworkManager-l2tp-gnome
+  #       - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
+  #       - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+  #       - ipscan-3.9.1-1.x86_64.rpm
+  #   remove:
+  #     packages:
+  #     # example: removing firefox (in favor of the flatpak)
+  #     # "firefox" is the main package, "firefox-langpacks" is a dependency
+  #     # - code
+  #     # - devpod
+  #       - flatpak-builder
+  #       - firefox
+  #       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
-  # - type: default-flatpaks
-  #   notify: true # Send notification after install/uninstall is finished (true/false)
-  #   system:
-  #     # If no repo information is specified, Flathub will be used by default
-  #     # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-  #     # repo-name: flathub
-  #     # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-  #     install:
-  #         - io.podman_desktop.PodmanDesktop
-  #         - app.zen_browser.zen
-  #         - com.lynnmichaelmartin.TimeTracker
-  #         - com.github.zocker_160.SyncThingy
-  #        # - com.microsoft.Edge
-  #         - org.libreoffice.LibreOffice
-  #       # - org.garudalinux.firedragon
-  #       # - org.mozilla.firefox
-  #       # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
-  #     # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
-  #     # only normal flatpak applications are (like Floorp Lightning web browser in this example).
-  #     # Installing different branches of the same Flatpak is not supported.
-  #     remove:
-  #       - org.mozilla.Thunderbird
-  #       - org.mozilla.firefox
-  #       - org.kde.kcalc
-  #       - org.gnome.Evolution
-  #     # - io.github.dvlv.boxbuddyrs
-  #   user: {} # Also add Flathub user repo, but no user packages
+  - type: default-flatpaks
+    notify: true # Send notification after install/uninstall is finished (true/false)
+    system:
+      # If no repo information is specified, Flathub will be used by default
+      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      # repo-name: flathub
+      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      install:
+          - io.podman_desktop.PodmanDesktop
+          - app.zen_browser.zen
+          - com.lynnmichaelmartin.TimeTracker
+          - com.github.zocker_160.SyncThingy
+         # - com.microsoft.Edge
+          - org.libreoffice.LibreOffice
+        # - org.garudalinux.firedragon
+        # - org.mozilla.firefox
+        # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
+      # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
+      # only normal flatpak applications are (like Floorp Lightning web browser in this example).
+      # Installing different branches of the same Flatpak is not supported.
+      remove:
+        - org.mozilla.Thunderbird
+        - org.mozilla.firefox
+        - org.kde.kcalc
+        - org.gnome.Evolution
+      # - io.github.dvlv.boxbuddyrs
+    user: {} # Also add Flathub user repo, but no user packages
 
-  # - type: script
-  #   scripts:
-  #     # - Win11sddm.sh #login theme #Don't use this one much
-  #     - Win10sddm.sh
-  #     #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
+  - type: script
+    scripts:
+      # - Win11sddm.sh #login theme #Don't use this one much
+      - Win10sddm.sh
+      #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
