@@ -31,8 +31,8 @@ modules:
         - wireshark
         - qalculate
         - copyq
-        # - waydroid
-        # - qt6-qtlocation
+        - waydroid
+        - qt6-qtlocation
         - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
         # - libreswan
@@ -45,7 +45,7 @@ modules:
         # - cabextract
         # - xorg-x11-font-utils
         # - feh
-        # - firejail
+        - firejail
         # - xl2tpd
         # - NetworkManager-l2tp
         # - NetworkManager-l2tp-gnome
