@@ -16,51 +16,51 @@ modules:
       #  destination: /var/home/.icons
       - source: LockScreenUi.qml  #ScreenLock test
         destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
-  # - type: dnf
-  #   repos:
-  #     files:
-  #       - https://packages.microsoft.com/yumrepos/edge/config.repo
-  #   optfix:
-  #     - microsoft
-  #   install:
-  #     packages:
-  #       - libqalculate 
-  #       - qalculate-qt
-  #       - qpwgraph
-  #       - kismet
-  #       - wireshark
-  #       - qalculate
-  #       - copyq
-  #       - waydroid
-  #       - qt6-qtlocation
-  #       - microsoft-edge-beta #needs Optfix
-  #       #- qt6-qtsvg
-  #       - libreswan
-  #       - cronie
-  #       - cronie-anacron
-  #       - crontabs
-  #       - libfido2
-  #       - fido2-tools
-  #       - libfido2-devel
-  #       - cabextract
-  #       - xorg-x11-font-utils
-  #       - feh
-  #       - firejail
-  #       - xl2tpd
-  #       - NetworkManager-l2tp
-  #       - NetworkManager-l2tp-gnome
-  #       - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
-  #       - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
-  #       - ipscan-3.9.1-1.x86_64.rpm
-  #   remove:
-  #     packages:
-  #     # example: removing firefox (in favor of the flatpak)
-  #     # "firefox" is the main package, "firefox-langpacks" is a dependency
-  #     # - code
-  #     # - devpod
-  #       - flatpak-builder
-  #       - firefox
-  #       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+  - type: dnf
+    repos:
+      files:
+        - https://packages.microsoft.com/yumrepos/edge/config.repo
+    optfix:
+      - microsoft
+    install:
+      packages:
+        - libqalculate 
+        #- qalculate-qt
+        - qpwgraph
+        # - kismet
+        # - wireshark
+        # - qalculate
+        # - copyq
+        # - waydroid
+        # - qt6-qtlocation
+        # - microsoft-edge-beta #needs Optfix
+        # #- qt6-qtsvg
+        # - libreswan
+        # - cronie
+        # - cronie-anacron
+        # - crontabs
+        # - libfido2
+        # - fido2-tools
+        # - libfido2-devel
+        # - cabextract
+        # - xorg-x11-font-utils
+        # - feh
+        # - firejail
+        # - xl2tpd
+        # - NetworkManager-l2tp
+        # - NetworkManager-l2tp-gnome
+        - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
+        - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+        - ipscan-3.9.1-1.x86_64.rpm
+    remove:
+      packages:
+      # example: removing firefox (in favor of the flatpak)
+      # "firefox" is the main package, "firefox-langpacks" is a dependency
+      # - code
+      # - devpod
+        - flatpak-builder
+        - firefox
+        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
