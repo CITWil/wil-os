@@ -35,7 +35,7 @@ modules:
         - qt6-qtlocation
         - microsoft-edge-beta #Instead script
         #- qt6-qtsvg
-        - xl2tpd
+        #- xl2tpd
         - libreswan
         - cronie
         - cronie-anacron
@@ -47,7 +47,7 @@ modules:
         - xorg-x11-font-utils
         - feh
         - firejail
-        - xl2tpd
+        #- xl2tpd
         #- NetworkManager-l2tp
         #- NetworkManager-l2tp-gnome
         - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
