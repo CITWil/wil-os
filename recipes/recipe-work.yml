@@ -17,6 +17,11 @@ modules:
       - source: LockScreenUi.qml  #ScreenLock test
         destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
   - type: dnf
+    repos:
+      files:
+        - https://packages.microsoft.com/yumrepos/edge/config.repo
+    optfix:
+      - microsoft
     install:
       packages:
         - libqalculate 
@@ -28,7 +33,7 @@ modules:
         - copyq
         - waydroid
         - qt6-qtlocation
-        #- microsoft-edge-beta Installed from script
+        - microsoft-edge-beta #Instead script
         #- qt6-qtsvg
         - xl2tpd
         - libreswan
@@ -90,5 +95,5 @@ modules:
     scripts:
       # - Win11sddm.sh #login theme #Don't use this one much
       - Win10sddm.sh
-      - MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
+      #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
