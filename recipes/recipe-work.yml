@@ -52,7 +52,7 @@ modules:
         - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
         - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
         - ipscan-3.9.1-1.x86_64.rpm
-        - qt5-location
+        - qt5-qtlocation
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
