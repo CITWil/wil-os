@@ -32,7 +32,7 @@ modules:
         - qalculate
         - copyq
         - waydroid
-        - qt6-qtlocation
+        #- qt6-qtlocation
         - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
         # - libreswan
