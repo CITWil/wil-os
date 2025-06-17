@@ -34,20 +34,18 @@ modules:
         - waydroid
         - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
-        # - libreswan
+        - libreswan
         - cronie
         - cronie-anacron
         - crontabs
         - libfido2
         - fido2-tools
         - libfido2-devel
-        # - cabextract
-        # - xorg-x11-font-utils
-        # - feh
+        - feh
         - firejail
-        # - xl2tpd
-        # - NetworkManager-l2tp
-        # - NetworkManager-l2tp-gnome
+        - xl2tpd
+        - NetworkManager-l2tp
+        - NetworkManager-l2tp-gnome
         - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
         - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
         - ipscan-3.9.1-1.x86_64.rpm
