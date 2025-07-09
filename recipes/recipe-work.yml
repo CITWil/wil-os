@@ -35,6 +35,7 @@ modules:
         - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
         - libreswan
+        - strongswan
         - cronie
         - cronie-anacron
         - crontabs
@@ -51,6 +52,8 @@ modules:
         - ipscan-3.9.1-1.x86_64.rpm
         - qt6-qtpositioning
         - qt6-qtlocation
+        - NetworkManager-strongswan-gnome
+        - screen
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
