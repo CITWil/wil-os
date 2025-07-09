@@ -97,5 +97,5 @@ modules:
       # - Win11sddm.sh #login theme #Don't use this one much
       - Win10sddm.sh
       #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
-      - vpnwil.sh
+      #- vpnwil.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
