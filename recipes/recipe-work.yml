@@ -75,7 +75,6 @@ modules:
 
   - type: script
     scripts:
-      # - Win11sddm.sh #login theme #Don't use this one much
       - Win10sddm.sh
       #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
       #- vpnwil.sh
