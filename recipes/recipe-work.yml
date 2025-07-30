@@ -66,12 +66,12 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      install:
-          - io.podman_desktop.PodmanDesktop
-          - app.zen_browser.zen
-          - com.lynnmichaelmartin.TimeTracker
-          - com.github.zocker_160.SyncThingy
-          - org.libreoffice.LibreOffice
+        install:
+            - io.podman_desktop.PodmanDesktop
+            - app.zen_browser.zen
+            - com.lynnmichaelmartin.TimeTracker
+            - com.github.zocker_160.SyncThingy
+            - org.libreoffice.LibreOffice
 
   - type: script
     scripts:
