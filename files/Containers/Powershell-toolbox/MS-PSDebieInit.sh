@@ -1,5 +1,6 @@
 #!/bin/bash
 #Mcfly test then install
+
 export POWERSHELL_TELEMETRY_OPTOUT=1
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 if [ ! -e "$/usr/local/bin/mcfly" ]; then

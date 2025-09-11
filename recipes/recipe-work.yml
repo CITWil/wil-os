@@ -54,6 +54,7 @@ modules:
         - qt6-qtlocation
         - NetworkManager-strongswan-gnome
         - screen
+        - plasma-sdk
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
