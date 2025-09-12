@@ -49,12 +49,13 @@ modules:
         - NetworkManager-l2tp-gnome
         - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
         - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
-        - ipscan-3.9.1-1.x86_64.rpm
+        - https://github.com/angryip/ipscan/releases/download/3.9.2/ipscan-3.9.2-1.x86_64.rpm
         - qt6-qtpositioning
         - qt6-qtlocation
         - NetworkManager-strongswan-gnome
         - screen
         - plasma-sdk
+        - https://github.com/TibixDev/winboat/releases/download/v0.7.10/winboat-0.7.10-x86_64.rpm
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
