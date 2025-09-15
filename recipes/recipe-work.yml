@@ -22,6 +22,7 @@ modules:
         - https://packages.microsoft.com/yumrepos/edge/config.repo
     optfix:
       - microsoft
+      - winboat
     install:
       packages:
         - libqalculate 
