@@ -35,7 +35,6 @@ modules:
         - waydroid
         - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
-        #- libreswan
         - strongswan
         - cronie
         - cronie-anacron
@@ -57,7 +56,8 @@ modules:
         - NetworkManager-strongswan-gnome
         - screen
         - plasma-sdk
-        - https://github.com/TibixDev/winboat/releases/download/v0.8.1/winboat-0.8.1-x86_64.rpm
+        - https://github.com/TibixDev/winboat/releases/download/v0.8.1/winboat-0.8.1-x86_64.rpm #needs OptFix
+        - icedtea-web
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
@@ -73,7 +73,7 @@ modules:
       - install:
           - io.podman_desktop.PodmanDesktop
           - app.zen_browser.zen
-          - com.lynnmichaelmartin.TimeTracker
+          #- com.lynnmichaelmartin.TimeTracker
           - com.github.zocker_160.SyncThingy
           - org.libreoffice.LibreOffice
 
