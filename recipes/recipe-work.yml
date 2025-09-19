@@ -35,7 +35,7 @@ modules:
         - waydroid
         - microsoft-edge-beta #needs Optfix
         # #- qt6-qtsvg
-        - libreswan
+        #- libreswan
         - strongswan
         - cronie
         - cronie-anacron
@@ -53,6 +53,7 @@ modules:
         - https://github.com/angryip/ipscan/releases/download/3.9.2/ipscan-3.9.2-1.x86_64.rpm
         - qt6-qtpositioning
         - qt6-qtlocation
+        - NetworkManager-strongswan
         - NetworkManager-strongswan-gnome
         - screen
         - plasma-sdk
