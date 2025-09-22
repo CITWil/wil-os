@@ -58,6 +58,7 @@ modules:
         - plasma-sdk
         - https://github.com/TibixDev/winboat/releases/download/v0.8.1/winboat-0.8.1-x86_64.rpm #needs OptFix
         - icedtea-web
+        - freerdp
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
