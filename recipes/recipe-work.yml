@@ -56,7 +56,7 @@ modules:
         - NetworkManager-strongswan-gnome
         - screen
         - plasma-sdk
-        - https://github.com/TibixDev/winboat/releases/download/v0.8.5/winboat-0.8.5-x86_64.rpm #needs OptFix
+        - https://github.com/TibixDev/winboat/releases/download/v0.8.6/winboat-0.8.6-x86_64.rpm #needs OptFix
         - icedtea-web
         - freerdp
     remove:
