@@ -44,7 +44,7 @@ modules:
         - libfido2-devel
         - feh
         - firejail
-        - xl2tpd
+        - golang-github-katalix-l2tp
         - NetworkManager-l2tp
         - NetworkManager-l2tp-gnome
         - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
