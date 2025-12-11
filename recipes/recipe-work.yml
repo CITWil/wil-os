@@ -20,6 +20,7 @@ modules:
     repos:
       files:
         - https://packages.microsoft.com/yumrepos/edge/config.repo
+        - https://download.opensuse.org/repositories/home:MartinVonReichenberg:KDE:Extra/Fedora_43/home:MartinVonReichenberg:KDE:Extra.repo
     optfix:
       - microsoft
       - winboat
@@ -47,7 +48,8 @@ modules:
         - golang-github-katalix-l2tp
         - NetworkManager-l2tp
         - NetworkManager-l2tp-gnome
-        - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
+        - koi
+       # - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
        # - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
         - https://github.com/angryip/ipscan/releases/download/3.9.2/ipscan-3.9.2-1.x86_64.rpm
         - qt6-qtpositioning
