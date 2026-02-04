@@ -78,10 +78,10 @@ modules:
           - app.zen_browser.zen
           #- com.lynnmichaelmartin.TimeTracker
           - com.github.zocker_160.SyncThingy
-          - org.libreoffice.LibreOffice
+         # - org.libreoffice.LibreOffice
 
-  - type: script
-    scripts:
+  #- type: script
+    #scripts:
       #- Win10sddm.sh
       #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
       #- vpnwil.sh
