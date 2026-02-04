@@ -82,7 +82,7 @@ modules:
 
   - type: script
     scripts:
-      - Win10sddm.sh
+      #- Win10sddm.sh
       #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
       #- vpnwil.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
