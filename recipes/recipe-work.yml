@@ -61,6 +61,7 @@ modules:
         - https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.rpm #needs OptFix
         - icedtea-web
         - freerdp
+        - carla
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
