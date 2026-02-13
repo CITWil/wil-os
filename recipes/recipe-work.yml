@@ -37,7 +37,7 @@ modules:
         - waydroid
         - https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-11.0.25.0.9-7.el9.x86_64.rpm
         - microsoft-edge-beta #needs Optfix
-        - microsoft-identity-broker #needs Optfix
+        #- microsoft-identity-broker #needs Optfix
         # #- qt6-qtsvg
         - strongswan
         - cronie
