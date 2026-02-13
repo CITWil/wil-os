@@ -21,6 +21,7 @@ modules:
       files:
         - https://packages.microsoft.com/yumrepos/edge/config.repo
         - https://download.opensuse.org/repositories/home:MartinVonReichenberg:KDE:Extra/Fedora_43/home:MartinVonReichenberg:KDE:Extra.repo
+        - https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/config.repo
     optfix:
       - microsoft
       - winboat
@@ -35,6 +36,7 @@ modules:
         - copyq
         - waydroid
         - microsoft-edge-beta #needs Optfix
+        - microsoft-identity-broker #needs Optfix
         # #- qt6-qtsvg
         - strongswan
         - cronie
