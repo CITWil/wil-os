@@ -27,6 +27,9 @@ modules:
       - winboat
     install:
       packages:
+        - repo: edge-yum
+          packages:
+            - microsoft-edge-beta #needs Optfix
         - libqalculate 
         #- qalculate-qt
         - qpwgraph
@@ -38,7 +41,7 @@ modules:
         - https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/copy-jdk-configs-4.0-3.el9.noarch.rpm
         - https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-headless-11.0.25.0.9-7.el9.x86_64.rpm
         - https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-11.0.25.0.9-7.el9.x86_64.rpm
-        - microsoft-edge-beta #needs Optfix
+        #- microsoft-edge-beta #needs Optfix
         - microsoft-identity-broker #needs Optfix
         # #- qt6-qtsvg
         - strongswan
