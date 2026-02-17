@@ -21,7 +21,7 @@ modules:
       files:
         - https://packages.microsoft.com/yumrepos/edge/config.repo
         - https://download.opensuse.org/repositories/home:MartinVonReichenberg:KDE:Extra/Fedora_43/home:MartinVonReichenberg:KDE:Extra.repo
-        - https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/config.repo
+        #- https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/config.repo
     optfix:
       - microsoft
       - winboat
@@ -38,11 +38,11 @@ modules:
         - qalculate
         - copyq
         - waydroid
-        - https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/copy-jdk-configs-4.0-3.el9.noarch.rpm
-        - https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-headless-11.0.25.0.9-7.el9.x86_64.rpm
-        - https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-11.0.25.0.9-7.el9.x86_64.rpm
+        #- https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/copy-jdk-configs-4.0-3.el9.noarch.rpm
+        #- https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-headless-11.0.25.0.9-7.el9.x86_64.rpm
+        #- https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-11.0.25.0.9-7.el9.x86_64.rpm
         #- microsoft-edge-beta #needs Optfix
-        - microsoft-identity-broker #needs Optfix
+        #- microsoft-identity-broker #needs Optfix
         # #- qt6-qtsvg
         - strongswan
         - cronie
