@@ -19,6 +19,7 @@ modules:
   - type: dnf
     repos:
       files:
+        - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
         - https://download.opensuse.org/repositories/home:MartinVonReichenberg:KDE:Extra/Fedora_43/home:MartinVonReichenberg:KDE:Extra.repo
         #- https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/config.repo
@@ -67,6 +68,7 @@ modules:
         - icedtea-web
         - freerdp
         - carla
+        - firefoxpwa
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
