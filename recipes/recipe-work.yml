@@ -39,7 +39,7 @@ modules:
         #- https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/c/copy-jdk-configs-4.0-3.el9.noarch.rpm
         #- https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-headless-11.0.25.0.9-7.el9.x86_64.rpm
         #- https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/appstream/os/Packages/j/java-11-openjdk-11.0.25.0.9-7.el9.x86_64.rpm
-        - microsoft-edge-beta #needs Optfix
+        - microsoft-edge-beta #needs Optfix #MS Repo
         #- microsoft-identity-broker #needs Optfix
         # #- qt6-qtsvg
         - strongswan
@@ -54,10 +54,10 @@ modules:
         - golang-github-katalix-l2tp
         - NetworkManager-l2tp
         - NetworkManager-l2tp-gnome
-        - koi
-       # - https://github.com/baduhai/Koi/releases/download/0.5.1/koi-0.5.1-1.1--Fedora_Rawhide.x86_64.rpm
-       # - https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
-        - https://github.com/angryip/ipscan/releases/download/3.9.2/ipscan-3.9.2-1.x86_64.rpm
+        - koi #OpenSUSE KDE:Extra Repo
+        - msttcore-fonts-installer-2.6-1.noarch.rpm #local Font download
+        - msttcore-fonts-installer-2.6-1.src.rpm #local-rpm Font download
+        - https://github.com/angryip/ipscan/releases/download/3.9.3/ipscan-3.9.3-1.x86_64.rpm
         - qt6-qtpositioning
         - qt6-qtlocation
         - NetworkManager-strongswan
@@ -68,7 +68,8 @@ modules:
         - icedtea-web
         - freerdp
         - carla
-        - firefoxpwa
+        - firefoxpwa #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
+        - tpm2-tools
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
