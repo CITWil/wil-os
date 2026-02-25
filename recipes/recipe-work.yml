@@ -55,8 +55,8 @@ modules:
         - NetworkManager-l2tp
         - NetworkManager-l2tp-gnome
         - koi #OpenSUSE KDE:Extra Repo
-        - msttcore-fonts-installer-2.6-1.noarch.rpm #local Font download
-        #S- msttcore-fonts-installer-2.6-1.src.rpm #local-rpm Font download
+        #- msttcore-fonts-installer-2.6-1.noarch.rpm #local Font download
+        #- msttcore-fonts-installer-2.6-1.src.rpm #local-rpm Font download
         - https://github.com/angryip/ipscan/releases/download/3.9.3/ipscan-3.9.3-1.x86_64.rpm
         - qt6-qtpositioning
         - qt6-qtlocation
