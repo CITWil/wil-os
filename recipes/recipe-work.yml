@@ -68,6 +68,7 @@ modules:
         - icedtea-web
         - freerdp
         - carla
+        - firefox
         - firefoxpwa #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
         - tpm2-tools
     remove:
