@@ -66,7 +66,7 @@ modules:
         - plasma-sdk
         - https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.rpm #needs OptFix
         - icedtea-web
-        - freerdp
+        #- freerdp
         - carla
         - firefox
         - firefoxpwa #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
@@ -80,7 +80,10 @@ modules:
         - flatpak-builder
       # - firefox
       # - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
-
+    replace:
+      packages:
+        - freerdp-3.22.0-1.fc43
+        
   - type: default-flatpaks
     configurations:
       - install:
@@ -90,7 +93,7 @@ modules:
           - com.github.zocker_160.SyncThingy
          # - org.libreoffice.LibreOffice
 
-  #- type: script
+  #- type: scriptclassic Outlook on the web
    # scripts:
     #  - Win10sddm.sh
       #- MSLocal-build.sh #cablespaghetti's MS intune and edge workarounds
