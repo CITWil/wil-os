@@ -69,7 +69,7 @@ modules:
         - freerdp-3.22.0-1.fc43
         - carla
         - firefox
-        - firefoxpwa #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
+        - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
         - tpm2-tools
     remove:
       packages:
