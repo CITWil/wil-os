@@ -45,7 +45,6 @@ modules:
         - strongswan
         - strongswan-sqlite
         - strongswan-swanctl
-        - strongswan-vici
         - cronie
         - cronie-anacron
         - crontabs
