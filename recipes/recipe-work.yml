@@ -44,7 +44,6 @@ modules:
         # #- qt6-qtsvg
         - strongswan
         - strongswan-sqlite
-        - strongswan-swanctl
         - cronie
         - cronie-anacron
         - crontabs
