@@ -43,6 +43,9 @@ modules:
         #- microsoft-identity-broker #needs Optfix
         # #- qt6-qtsvg
         - strongswan
+        - strongswan-sqlite
+        - strongswan-swanctl
+        - strongswan-vici
         - cronie
         - cronie-anacron
         - crontabs
