@@ -45,6 +45,8 @@ modules:
         - strongswan
         - strongswan-sqlite
         - strongswan-libipsec
+        - strongswan-openssl
+        - strongswan-crypto
         - cronie
         - cronie-anacron
         - crontabs
