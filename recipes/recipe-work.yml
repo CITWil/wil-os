@@ -42,10 +42,11 @@ modules:
         - microsoft-edge-beta #needs Optfix #MS Repo
         #- microsoft-identity-broker #needs Optfix
         # #- qt6-qtsvg
-        - strongswan
-        - strongswan-sqlite
-        - strongswan-libipsec
-        - strongswan-openssl
+        #- strongswan
+        #- strongswan-sqlite
+        #- strongswan-libipsec
+        - libreswan 
+        - NetworkManager-libreswan
         - cronie
         - cronie-anacron
         - crontabs
