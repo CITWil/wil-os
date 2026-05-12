@@ -18,6 +18,8 @@ modules:
         destination: /usr/share/plasma/shells/org.kde.plasma.desktop/contents/lockscreen/
   - type: dnf
     repos:
+      copr:
+        - dsommers/openvpn3
       files:
         - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
@@ -75,6 +77,7 @@ modules:
         - firefox
         - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
         - tpm2-tools
+        - openvpn3-client
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
