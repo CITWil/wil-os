@@ -5,7 +5,7 @@ description: This is my OS image for work.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/aurora-dx
-image-version: stable # latest is also supported if you want new updates ASAP
+image-version: stable-20260508 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -73,7 +73,7 @@ modules:
         - plasma-sdk
         - https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.rpm #needs OptFix
         #- java-21-openjdk-21.0.11.0.10-1.fc43.x86_64 #temp until icedtea catches up
-        #- icedtea-web
+        - icedtea-web
         - freerdp
         - carla
         - firefox
