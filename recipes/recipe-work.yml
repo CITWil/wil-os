@@ -72,6 +72,7 @@ modules:
         - screen
         - plasma-sdk
         - https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.rpm #needs OptFix
+        - java-21-openjdk-21.0.11.0.10-1.fc43 #temp until icedtea catches up
         - icedtea-web
         - freerdp
         - carla
@@ -79,7 +80,6 @@ modules:
         - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
         - tpm2-tools
         - openvpn3-client
-        - java-21-openjdk-21.0.11.0.10-1.fc43 #temp until icedtea catches up
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
