@@ -80,6 +80,11 @@ modules:
         - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
         - tpm2-tools
         - openvpn3-client
+        - dialog #winapps
+        - iproute #winapps
+        - libnotify #winapps
+        - nmap-ncat #winapps
+        - yad #winapps Launcher
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
