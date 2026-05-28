@@ -23,7 +23,8 @@ modules:
       files:
         - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
-        - https://download.opensuse.org/repositories/home:MartinVonReichenberg:KDE:Extra/Fedora_43/home:MartinVonReichenberg:KDE:Extra.repo
+        - https://download.opensuse.org/repositories/home:MartinVonReichenberg:KDE:Extra/Fedora_%OS_VERSION%/home:MartinVonReichenberg:KDE:Extra.repo
+        - adoptium.repo
         #- https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/config.repo
     optfix:
       - microsoft
@@ -71,7 +72,7 @@ modules:
         - screen
         - plasma-sdk
         - https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.rpm #needs OptFix
-        #- java-21-openjdk-21.0.11.0.10-1.fc43.x86_64 #temp until icedtea catches up
+        - temurin-21-jdk #temp until icedtea catches up if it does
         - icedtea-web
         - freerdp #RDP + WinApps
         - carla
