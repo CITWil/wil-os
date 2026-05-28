@@ -19,8 +19,7 @@ modules:
   - type: dnf
     repos:
       copr:
-        - name: dsommers/openvpn3
-          #chroot: fedora-43-x86_64
+        - dsommers/openvpn3
       files:
         - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
