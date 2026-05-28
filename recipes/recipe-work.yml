@@ -85,6 +85,7 @@ modules:
         - libnotify #winapps
         - nmap-ncat #winapps
         - yad #winapps Launcher
+        - unity-gtk-module #WinApps Launcher
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
