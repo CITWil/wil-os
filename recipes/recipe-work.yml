@@ -72,8 +72,8 @@ modules:
         - carla
         - firefox
         - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
-        - openvpn3-client
-        - kmod-ovpn-dco
+        - openvpn3
+        - ovpn-dco
         - dialog #winapps
         - yad #winapps Launcher
     remove:
