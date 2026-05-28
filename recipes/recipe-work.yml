@@ -5,7 +5,7 @@ description: This is my OS image for work.
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/aurora-dx
-image-version: stable-20260508 # latest is also supported if you want new updates ASAP
+image-version: stable #-20260508 -last 43 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -20,7 +20,7 @@ modules:
     repos:
       copr:
         - name: dsommers/openvpn3
-          chroot: fedora-43-x86_64
+          #chroot: fedora-43-x86_64
       files:
         - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
@@ -74,7 +74,7 @@ modules:
         - https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.rpm #needs OptFix
         #- java-21-openjdk-21.0.11.0.10-1.fc43.x86_64 #temp until icedtea catches up
         - icedtea-web
-        - freerdp
+        - freerdp #RDP + WinApps
         - carla
         - firefox
         - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
@@ -85,7 +85,7 @@ modules:
         - libnotify #winapps
         - nmap-ncat #winapps
         - yad #winapps Launcher
-        - unity-gtk-module #WinApps Launcher
+        - unity-gtk-module-common #WinApps Launcher
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
