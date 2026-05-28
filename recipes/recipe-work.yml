@@ -19,7 +19,8 @@ modules:
   - type: dnf
     repos:
       copr:
-        - dsommers/openvpn3
+        - name: dsommers/openvpn3
+          chroot: fedora-43-x86_64
       files:
         - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
@@ -72,8 +73,7 @@ modules:
         - carla
         - firefox
         - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
-        - openvpn3
-        - ovpn-dco
+        - openvpn3-client
         - dialog #winapps
         - yad #winapps Launcher
     remove:
