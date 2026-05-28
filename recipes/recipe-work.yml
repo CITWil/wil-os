@@ -24,7 +24,7 @@ modules:
         - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
         - https://download.opensuse.org/repositories/home:MartinVonReichenberg:KDE:Extra/Fedora_%OS_VERSION%/home:MartinVonReichenberg:KDE:Extra.repo
-        - adoptium.repo
+        - adoptium.repo #Fedora
         #- https://packages.microsoft.com/yumrepos/microsoft-rhel9.0-prod/config.repo
     optfix:
       - microsoft
