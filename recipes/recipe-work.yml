@@ -31,8 +31,6 @@ modules:
       - winboat
     install:
       packages:
-        - libqalculate 
-        #- qalculate-qt
         - qpwgraph
         - kismet
         - wireshark
@@ -53,7 +51,6 @@ modules:
         - cronie
         - cronie-anacron
         - crontabs
-        - libfido2
         - fido2-tools
         - libfido2-devel
         - feh
@@ -65,8 +62,6 @@ modules:
         #- msttcore-fonts-installer-2.6-1.noarch.rpm #local Font download
         #- msttcore-fonts-installer-2.6-1.src.rpm #local-rpm Font download
         - https://github.com/angryip/ipscan/releases/download/3.9.3/ipscan-3.9.3-1.x86_64.rpm
-        - qt6-qtpositioning
-        - qt6-qtlocation
         - NetworkManager-strongswan
         - NetworkManager-strongswan-gnome
         - screen
@@ -74,18 +69,13 @@ modules:
         - https://github.com/TibixDev/winboat/releases/download/v0.9.0/winboat-0.9.0-x86_64.rpm #needs OptFix
         - temurin-21-jdk #temp until icedtea catches up if it does
         - icedtea-web
-        - freerdp #RDP + WinApps
         - carla
         - firefox
         - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
-        - tpm2-tools
         - openvpn3-client
+        - kmod-ovpn-dco
         - dialog #winapps
-        - iproute #winapps
-        - libnotify #winapps
-        - nmap-ncat #winapps
         - yad #winapps Launcher
-        - unity-gtk-module-common #WinApps Launcher
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
