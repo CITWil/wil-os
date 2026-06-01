@@ -33,6 +33,7 @@ modules:
     install:
       packages:
         - qpwgraph
+        - yakuake
         - kismet
         - wireshark
         - qalculate
