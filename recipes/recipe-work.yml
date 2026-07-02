@@ -74,7 +74,7 @@ modules:
         - icedtea-web
         - carla
         - firefox
-        - firefoxpwa-2.18.0 #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
+        - firefoxpwa #PackageCloud Repo File https://packagecloud.io/filips/FirefoxPWA
         - openvpn3-client
         - dialog #winapps
         - yad #winapps Launcher
