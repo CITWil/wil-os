@@ -62,7 +62,7 @@ modules:
         - golang-github-katalix-l2tp
         - NetworkManager-l2tp
         - NetworkManager-l2tp-gnome
-        - koi #OpenSUSE KDE:Extra Repo
+        - koi-0.6-2.1 #OpenSUSE KDE:Extra Repo
         #- msttcore-fonts-installer-2.6-1.noarch.rpm #local Font download
         #- msttcore-fonts-installer-2.6-1.src.rpm #local-rpm Font download
         - https://github.com/angryip/ipscan/releases/download/3.9.3/ipscan-3.9.3-1.x86_64.rpm
