@@ -81,6 +81,7 @@ modules:
         - openvpn3-client
         - dialog #winapps
         - yad #winapps Launcher
+        - karton
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
