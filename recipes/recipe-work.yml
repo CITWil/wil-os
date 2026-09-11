@@ -81,7 +81,7 @@ modules:
         - openvpn3-client
         - dialog #winapps
         - yad #winapps Launcher
-        - karton
+        - libayatana-appindicator-gtk3 #for virt-manager
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
