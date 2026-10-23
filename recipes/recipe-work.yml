@@ -81,7 +81,10 @@ modules:
         - openvpn3-client
         - dialog #winapps
         - yad #winapps Launcher
-        - libayatana-appindicator-gtk3 #for virt-manager
+        - libayatana-appindicator-gtk3 #for virt-
+        - python3-beautifulsoup4
+        - python3-requests
+        - python3-lxml
     remove:
       packages:
       # example: removing firefox (in favor of the flatpak)
