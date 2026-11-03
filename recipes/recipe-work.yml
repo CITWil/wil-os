@@ -32,6 +32,7 @@ modules:
       - winboat
     install:
       packages:
+        - adoptium-temurin-java-repository
         - qpwgraph
         - yakuake
         - kismet
