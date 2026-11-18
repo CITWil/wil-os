@@ -20,7 +20,7 @@ modules:
     repos:
       copr:
         - name: dsommers/openvpn3
-          chroot: fedora-43-x86_64
+          chroot: fedora-45-x86_64
       files:
         - firefoxpwa.repo
         - https://packages.microsoft.com/yumrepos/edge/config.repo
@@ -68,7 +68,7 @@ modules:
         - https://github.com/baduhai/Koi/releases/download/0.6/koi-0.6-6.1.Fedora_Rawhide.x86_64.rpm #slower updates
         #- msttcore-fonts-installer-2.6-1.noarch.rpm #local Font download
         #- msttcore-fonts-installer-2.6-1.src.rpm #local-rpm Font download
-        - https://github.com/angryip/ipscan/releases/download/3.12.0/ipscan-3.12.0-1.x86_64.rpm
+        - https://github.com/angryip/ipscan/releases/download/3.12.2/ipscan-3.12.2-1.x86_64.rpm
         - NetworkManager-strongswan
         - NetworkManager-strongswan-gnome
         - screen
